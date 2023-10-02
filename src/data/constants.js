@@ -1,3 +1,5 @@
+import filmy from "../images/filmyverse.png"
+
 export const Bio = {
   name: "Bipul Kumar",
   roles: [
@@ -66,7 +68,7 @@ export const skills = [
       {
         name: "MongoDB",
         image:
-          "https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa4rbEYSavjGzezjwgdjxixbUJNFHi_2vz7A&usqp=CAU",
       },
       {
         name: "Firebase",
@@ -136,7 +138,7 @@ export const skills = [
   },
 ];
 
-export const experiences = [
+export const trainings = [
   {
     id: 0,
     img: "https://yt3.googleusercontent.com/ytc/APkrFKZUyqqVEkzM7Ob2w1gKYJATn2ZLzOjt68TF0-Ug=s900-c-k-c0x00ffffff-no-rj",
@@ -192,12 +194,13 @@ export const projects = [
     description:
       "Filmyverse is a movie rating website in which user can rate the movies after registering themself through their personal information. The registration is complete after typing the correct otp which they get by giving their mobile number. All the users information is stored in the firebase. When the user trys to login the next time, they just have to give their mobile number and password, if it matches to the existing data then the user is allowed to login.",
     image:
-      "https://drive.google.com/file/d/1GIFew7H916mPvNbQ1PwlzBYmZ_Go5QLZ/view?usp=sharing",
+      "https://github.com/bipulkumarb/images/blob/main/filmyverse.png",
     tags: [
       "React",
       "Firebase",
       "JavaScript",
       "Tailwind CSS",
+      "HTML"
     ],
     category: "web app",
     github: "https://github.com/bipulkumarb/Filmyverse",
@@ -206,17 +209,17 @@ export const projects = [
 
   {
     id: 1,
-    title: "IMDB",
+    title: "IMDB: A movie rating checking website",
     date: "May 2023",
     description:
       "We can see the rating of the movies through this site. It uses the api provided by imdb. It shows popular, top rated and upcomming movies. We can also see the details of movies.",
-    image:
-      "",
+    image:"",
     tags: [
       "React",
       "JavaScript",
       "CSS",
-      "API"
+      "API",
+      "HTML"
     ],
     category: "web app",
     github: "https://github.com/bipulkumarb/imdb",
@@ -224,18 +227,52 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Training Studio",
+    title: "Training Studio: A GYM website",
     date: "Mar 2023",
     description:
-      "",
+      "It is static frontend website for a GYM owners in which they can put all of their business information online.",
     image:
       "",
     tags: ["React ",
+      "HTML",
       "JavaScript",
       "CSS",],
     category: "web app",
     github: "https://github.com/bipulkumarb/React-Gym-Website-Training",
     webapp: "https://neo-gym.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Bank Management System using GUI",
+    date: "Nov 2021",
+    description:
+      "It is a banking management project, made using python language. It has a graphical user interface. We can register into the banking project using the correct OTP which we get after putting our E-mail id. All the transaction details that we go is stored in the files.",
+    image:
+      "",
+    tags: ["Python ",
+        "tkinter",
+        "os",
+        "PIL",
+        "Graphical User Interface"
+        ],
+    category: "programming language",
+    github: "https://github.com/bipulkumarb/New-bank-system",
+  },
+  {
+    id: 4,
+    title: "Sudoku Solver Website using Backtracking",
+    date: "Mar 2023",
+    description:
+      "It is a project that helps us to solve sudoku using back tracking.",
+    image:
+      "",
+    tags: ["React ",
+      "HTML",
+      "JavaScript",
+      "CSS",],
+    category: "web app",
+    github: "https://github.com/bipulkumarb/sudoku-solver",
+    webapp: "https://sudoku-solver-ecru-nu.vercel.app/",
   },
 ];
 
