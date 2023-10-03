@@ -1,5 +1,3 @@
-import filmy from "../images/filmyverse.png"
-
 export const Bio = {
   name: "Bipul Kumar",
   roles: [
@@ -145,14 +143,14 @@ export const trainings = [
     role: "React JS",
     company: "Programming Pathshala",
     date: "Jan 2023 - Feb 2023",
-    desc: "",
+    desc: "In this training I learned about React and Javascript from basic to advance level. I also made  various projects during my training.",
     skills: [
       "HTML",
       "CSS",
       "JavaScript",
       "React JS",
     ],
-    doc: "https://github.com/bipulkumarb",
+    doc: "/assets/pathshala.png",
   },
 ];
 
@@ -194,7 +192,7 @@ export const projects = [
     description:
       "Filmyverse is a movie rating website in which user can rate the movies after registering themself through their personal information. The registration is complete after typing the correct otp which they get by giving their mobile number. All the users information is stored in the firebase. When the user trys to login the next time, they just have to give their mobile number and password, if it matches to the existing data then the user is allowed to login.",
     image:
-      "https://github.com/bipulkumarb/images/blob/main/filmyverse.png",
+      "/assets/filmyverse.png",
     tags: [
       "React",
       "Firebase",
@@ -213,7 +211,7 @@ export const projects = [
     date: "May 2023",
     description:
       "We can see the rating of the movies through this site. It uses the api provided by imdb. It shows popular, top rated and upcomming movies. We can also see the details of movies.",
-    image:"",
+    image:"/assets/imdb.png",
     tags: [
       "React",
       "JavaScript",
@@ -232,7 +230,7 @@ export const projects = [
     description:
       "It is static frontend website for a GYM owners in which they can put all of their business information online.",
     image:
-      "",
+      "/assets/training.png",
     tags: ["React ",
       "HTML",
       "JavaScript",
@@ -263,9 +261,8 @@ export const projects = [
     title: "Sudoku Solver Website using Backtracking",
     date: "Mar 2023",
     description:
-      "It is a project that helps us to solve sudoku using back tracking.",
-    image:
-      "",
+      "It is a project that helps us to solve sudoku using back tracking. When we put numbers in some place and click on solve, it will automatically complete the whole sudoku. If we put the numbers at wrong place and the solution in not possible, then it will show an alert.",
+    image: "/assets/sudoku.png",
     tags: ["React ",
       "HTML",
       "JavaScript",
@@ -273,6 +270,18 @@ export const projects = [
     category: "web app",
     github: "https://github.com/bipulkumarb/sudoku-solver",
     webapp: "https://sudoku-solver-ecru-nu.vercel.app/",
+  },
+  {
+    id: 5,
+    title: "E-Commerce Dashboard in MS Excel",
+    date: "Oct 2023",
+    description:
+      "/ass",
+    image: "/assets/edashboard.png",
+    tags: ["Microsoft Excel ",
+      ],
+    category: "others",
+    github: "https://github.com/bipulkumarb/E-Commerce-Dashboard",
   },
 ];
 
