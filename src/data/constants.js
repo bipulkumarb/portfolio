@@ -276,7 +276,7 @@ export const projects = [
     title: "E-Commerce Dashboard in MS Excel",
     date: "Oct 2023",
     description:
-      "/ass",
+      "It is a dashboard made in MS Excel of data. Dashboard is made from the data of a e-commerce store.",
     image: "/assets/edashboard.png",
     tags: ["Microsoft Excel ",
       ],
