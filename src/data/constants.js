@@ -246,7 +246,7 @@ export const projects = [
     description:
       "It is a banking management project, made using python language. It has a graphical user interface. We can register into the banking project using the correct OTP which we get after putting our E-mail id. All the transaction details that we go is stored in the files.",
     image:
-      "",
+      "/assets/bank.png",
     tags: ["Python ",
         "tkinter",
         "os",
