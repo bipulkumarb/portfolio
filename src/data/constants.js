@@ -180,7 +180,7 @@ export const education = [
     date: "Apr 2017 - Apr 2018",
     grade: "88%",
     desc: "I completed my class 10 education from Vidya Bharti Chinmaya Vidyalaya, Jamshedpur.",
-    degree: "CBSC(X), Science with Computer",
+    degree: "CBSC(X)",
   },
 ];
 
