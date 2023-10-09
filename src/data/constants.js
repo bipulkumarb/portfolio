@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/bipulkumarb",
   resume:
-    "https://drive.google.com/file/d/1dZ2ICQ38j6qdMOk8tusE8BkXs0d7IGwn/view?usp=drive_link",
+    "https://drive.google.com/file/d/1otYl5v_Khsi56vYxXS3XaUh6yoEdg4IA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/bipul-kumar-bk/",
   twitter: "https://twitter.com/BipulKumar7580",
   insta: "https://www.instagram.com/bipul_kumarbk/",
