@@ -118,6 +118,7 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer
 `
 
 
@@ -125,16 +126,16 @@ const ContactButton = styled.input`
 const Contact = () => {
 
   //hooks
-  // const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = React.useState(false);
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_cz26ww8', 'template_05lan9k', form.current, '52784bFuLhrwTGegtPXAK')
+    emailjs.sendForm('service_mj776na', 'template_y06djdq', form.current, 'e_He-Jau0F9FWQgQb')
       .then((result) => {
-        // setOpen(true);
+        setOpen(true);
         console.log(result.text);
-        // form.current.reset();
+        form.current.reset();
       }, (error) => {
         console.log(error.text);
       });
@@ -155,13 +156,13 @@ const Contact = () => {
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
-        {/* <Snackbar
+        <Snackbar
           open={open}
           autoHideDuration={6000}
           onClose={()=>setOpen(false)}
           message="Email sent successfully!"
           severity="success"
-        /> */}
+        />
       </Wrapper>
     </Container>
   )
