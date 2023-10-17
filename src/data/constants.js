@@ -95,6 +95,21 @@ export const skills = [
     ],
   },
   {
+    title: "Backend Technologies",
+    skills: [
+      {
+        name: "Node JS",
+        image:
+          "https://imgs.search.brave.com/mt3_ltFUor3sJTiWHdmFbORv1QE3PUtM9gsygWvKgFQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL04vbm9kZWpz/LWxvZ28tRkJFMTIy/RTM3Ny1zZWVrbG9n/by5jb20ucG5n",
+      },
+      {
+        name: "Express JS",
+        image:
+          "https://imgs.search.brave.com/P9QqAXYjpNl5OhqhvpNdYJIsC_H-ej9ocFQgJ56mQts/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jYW1v/LmdpdGh1YnVzZXJj/b250ZW50LmNvbS8w/NTY2NzUyMjQ4YjRi/MzFiMmM0YmRjNTgz/NDA0ZTQxMDY2YmQw/YjY3MjZmMzEwYjcz/ZTExNDBkZWVmY2Mz/MWFjLzY4NzQ3NDcw/NzMzYTJmMmY2OTJl/NjM2YzZmNzU2NDc1/NzAyZTYzNmY2ZDJm/N2E2NjU5MzY2YzRj/Mzc2NTQ2NjEyZDMz/MzAzMDMwNzgzMzMw/MzAzMDJlNzA2ZTY3",
+      },
+    ],
+  },
+  {
     title: "Others",
     skills: [
       {
@@ -130,7 +145,27 @@ export const skills = [
       {
         name: "Figma",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
+          "https://cdn.icon-icons.com/icons2/2699/PNG/512/firebase_logo_icon_171157.png",
+      },
+      {
+        name: "Semrush",
+        image:
+          "https://imgs.search.brave.com/Axk2Pfb_fqrftx4Qo45o53bX_H0pphWR0LDVXmjZJ8Y/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb21w/YW5pZXNsb2dvLmNv/bS9pbWcvb3JpZy9T/RU1SLTRmNGMzMjEw/LnBuZz90PTE2Nzgw/ODUwMjM",
+      },
+      {
+        name: "SEO Tools",
+        image:
+          "https://imgs.search.brave.com/zeuIYc7rvOiJYY7NF9pmkxX8jpAVxM-3_vrV2KuSiRY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NjI1NzczMDktMjU5/MmFiODRiMWJjP2l4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TW54OGMy/VnZmR1Z1ZkRCOGZE/QjhmSHd3Jnc9MTAw/MCZxPTgw",
+      },
+      {
+        name: "Google Analytics",
+        image:
+          "https://imgs.search.brave.com/6VqUOO0fhqQ75F3S3DM9tNLutdPM5K8-vgdFlFn1jOI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL0cvZ29vZ2xl/LWFuYWx5dGljcy1s/b2dvLTNDNTlGMTY3/RjAtc2Vla2xvZ28u/Y29tLnBuZw",
+      },
+      {
+        name: "Digital Marketing",
+        image:
+          "https://imgs.search.brave.com/drtDh1wCF1yb9Zfp450WPtAZpUc8YysSvvNgdnPybuI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIy/MjgxMTE4MC9waG90/by9kaWdpdGFsLW1h/cmtldGluZy5qcGc_/cz02MTJ4NjEyJnc9/MCZrPTIwJmM9cUJ2/MVcyclpaZWRqQm5h/OTRhUjVHREVnc0Vj/bUhyUnBvcUx2Yjcy/N1dlbz0",
       },
     ],
   },
@@ -151,6 +186,33 @@ export const trainings = [
       "React JS",
     ],
     doc: "/assets/pathshala.png",
+  },
+  {
+    id: 1,
+    img: "https://imgs.search.brave.com/mt3_ltFUor3sJTiWHdmFbORv1QE3PUtM9gsygWvKgFQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL04vbm9kZWpz/LWxvZ28tRkJFMTIy/RTM3Ny1zZWVrbG9n/by5jb20ucG5n",
+    role: "Node JS",
+    company: "Programming Pathshala",
+    date: "June 2023 - July 2023",
+    desc: "Successfully completed an intensive Node.js training program in June-July 2023, emphasizing hands-on learning techniques. Attained proficiency in Node.js, Express.js, and MongoDB, equipping me with the skills to create efficient and scalable server-side applications ",
+    skills: [
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+    ],
+    doc: "",
+  },
+  {
+    id: 2,
+    img: "https://imgs.search.brave.com/6lHxBgRoJ7Yy405ITGS8dhRMVHPgaXtdT-l8BGSmBM8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bG9nby53aW5lL2Ev/bG9nby9NeVNRTC9N/eVNRTC1Mb2dvLndp/bmUuc3Zn.svg",
+    role: "DBMS",
+    company: "Infosys Springboard",
+    date: "June 2023 - July 2023",
+    desc: "In this training I learned about complete database management system (DBMS) from basic to advance level. I also made various projects during my training also Gained proficiency on sql commands and managed to gain the ability to work with databases.",
+    skills: [
+      "DBMS",
+      "SQL",
+    ],
+    doc: "/assets/springboard.png",
   },
 ];
 

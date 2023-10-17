@@ -129,6 +129,17 @@ const Contact = () => {
   const [open, setOpen] = React.useState(false);
   const form = useRef();
 
+  //validate the form
+  // const validateForm = () => {
+  //   const inputs = form.current.querySelectorAll('input');
+  //   for (const input of inputs) {
+  //     if (input.required && !input.value) {
+  //       return false;
+  //     }
+  //   }
+  //   return true;
+  // }
+
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_mj776na', 'template_y06djdq', form.current, 'e_He-Jau0F9FWQgQb')
@@ -150,9 +161,9 @@ const Contact = () => {
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
+          <ContactInput placeholder="Your Email" name="from_email" required/>
+          <ContactInput placeholder="Your Name" name="from_name" required/>
+          <ContactInput placeholder="Subject" name="subject" required/>
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
