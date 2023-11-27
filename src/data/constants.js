@@ -3,6 +3,7 @@ export const Bio = {
   roles: [
     "Frontend Developer",
     "Programmer",
+    "Data Science Student"
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -75,6 +76,21 @@ export const skills = [
     ],
   },
   {
+    title: "Backend Technologies",
+    skills: [
+      {
+        name: "Node JS",
+        image:
+          "https://imgs.search.brave.com/mt3_ltFUor3sJTiWHdmFbORv1QE3PUtM9gsygWvKgFQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL04vbm9kZWpz/LWxvZ28tRkJFMTIy/RTM3Ny1zZWVrbG9n/by5jb20ucG5n",
+      },
+      {
+        name: "Express JS",
+        image:
+          "https://imgs.search.brave.com/P9QqAXYjpNl5OhqhvpNdYJIsC_H-ej9ocFQgJ56mQts/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jYW1v/LmdpdGh1YnVzZXJj/b250ZW50LmNvbS8w/NTY2NzUyMjQ4YjRi/MzFiMmM0YmRjNTgz/NDA0ZTQxMDY2YmQw/YjY3MjZmMzEwYjcz/ZTExNDBkZWVmY2Mz/MWFjLzY4NzQ3NDcw/NzMzYTJmMmY2OTJl/NjM2YzZmNzU2NDc1/NzAyZTYzNmY2ZDJm/N2E2NjU5MzY2YzRj/Mzc2NTQ2NjEyZDMz/MzAzMDMwNzgzMzMw/MzAzMDJlNzA2ZTY3",
+      },
+    ],
+  },
+  {
     title: "Programming Language",
     skills: [
       {
@@ -95,22 +111,7 @@ export const skills = [
     ],
   },
   {
-    title: "Backend Technologies",
-    skills: [
-      {
-        name: "Node JS",
-        image:
-          "https://imgs.search.brave.com/mt3_ltFUor3sJTiWHdmFbORv1QE3PUtM9gsygWvKgFQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zZWVr/bG9nby5jb20vaW1h/Z2VzL04vbm9kZWpz/LWxvZ28tRkJFMTIy/RTM3Ny1zZWVrbG9n/by5jb20ucG5n",
-      },
-      {
-        name: "Express JS",
-        image:
-          "https://imgs.search.brave.com/P9QqAXYjpNl5OhqhvpNdYJIsC_H-ej9ocFQgJ56mQts/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jYW1v/LmdpdGh1YnVzZXJj/b250ZW50LmNvbS8w/NTY2NzUyMjQ4YjRi/MzFiMmM0YmRjNTgz/NDA0ZTQxMDY2YmQw/YjY3MjZmMzEwYjcz/ZTExNDBkZWVmY2Mz/MWFjLzY4NzQ3NDcw/NzMzYTJmMmY2OTJl/NjM2YzZmNzU2NDc1/NzAyZTYzNmY2ZDJm/N2E2NjU5MzY2YzRj/Mzc2NTQ2NjEyZDMz/MzAzMDMwNzgzMzMw/MzAzMDJlNzA2ZTY3",
-      },
-    ],
-  },
-  {
-    title: "Others",
+    title: "Data Science",
     skills: [
       {
         name: "Tableau",
@@ -121,6 +122,31 @@ export const skills = [
         name: "MS Excel",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/2203px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png",
+      },
+      {
+        name: "Hadoop",
+        image:
+          "https://i.pinimg.com/736x/87/ff/ea/87ffeaec8df2b40ea7d5d3a27b8561a5.jpg",
+      },
+      {
+        name: "Apache Hive",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Apache_Hive_logo.svg/1138px-Apache_Hive_logo.svg.png",
+      },
+      {
+        name: "Apache Hbase",
+        image:
+          "https://miro.medium.com/v2/resize:fit:786/format:webp/0*Bp34TPZYN-A2GKsA.png",
+      },
+    ],
+  },
+  {
+    title: "Others",
+    skills: [
+      {
+        name: "MS Office",
+        image:
+          "https://static.vecteezy.com/system/resources/previews/014/018/577/non_2x/ms-office-logo-on-transparent-background-free-vector.jpg",
       },
       {
         name: "Canva",
